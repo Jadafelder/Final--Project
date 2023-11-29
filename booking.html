@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Booking</title>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="media/images/favicon.ico">
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<main>
+<!--Use the header area for the website name or logo-->
+
+<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="media/images/logo.jpeg" alt="Aggie logo" width="140" height="120"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="booking.html">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+ </header>
+
+  <div class="container">
+  <div class="row">
+    <div class="col-8">
+    <h2>Food Reservation Form</h2>
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="date">Date:</label><br>
+        <input type="date" id="date" name="date"><br>
+        <label for="time">Time:</label><br>
+        <input type="time" id="time" name="time"><br>
+        <label for="guests">Number of Guests:</label><br>
+        <input type="number" id="guests" name="guests"><br>
+        <h3>Payment Options</h3>
+        <input type="radio" id="credit" name="payment" value="credit">
+        <label for="credit">Credit Card</label><br>
+        <input type="radio" id="debit" name="payment" value="debit">
+        <label for="debit">Debit Card</label><br>
+        <input type="radio" id="paypal" name="payment" value="paypal">
+        <label for="paypal">PayPal</label><br>
+        <input type="radio" id="cash" name="payment" value="cash">
+        <label for="cash">Cash</label><br>
+        <button type="submit" class="btn btn-primary mb-3"onclick="booking()">submit</button>
+    </form>
+    </div>
+    <div class="col-4">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+      <img src="media/images/th.jpeg" alt="book now" width= "480" height="220">		  
+    </div>
+  </div>
+  </div>
+	</main>
+
+<!--Use the footer area to add webpage footer content-->	
+	<footer>
+    <div class="footer">
+      <p>© Copyright 2023  - All Rights Reserved</p>
+      <a href="https://www.facebook.com" target="_blank"><img src="media/images/facebook.png" alt="Facebook logo"></a> 
+      <a href="https://www.twitter.com"  target="_blank"><img src="media/images/twitter.png"  alt="Twitter logo"></a>
+    </div>
+	</footer>
+     <script src="javascript/scripts.js"></script>
+	
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    background-color: #F2F7FF;
+}
+
+.center { 
+ text-align: center; 
+}
+
+/* Contact Page CSS */
+.centerform {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    width: 95%; 
+    padding: 30px; /* Add padding to create space around the form */
+}
+
+form {
+    background-image: linear-gradient(to bottom right, #F2F7FF, #0B409C );
+    padding: 40px; /* Add padding to the form elements */
+    border-radius: 10px; /* Optional: Add border-radius for a rounded form appearance */
+}
+
+.footer {
+    padding: 20px;
+    position: relative; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:  #0B409C;
+    color: white;
+    text-align: center;
+ }
+
+ /* Show hide panel style */
+ #panel, #flip {
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #555;
+    color: white;
+    border: solid 1px #666;
+    border-radius: 3px;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Contact</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="media/images/favicon.ico">
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+<main>
+<!--Use the header area for the website name or logo-->
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="media/images/logo.jpeg" alt="Aggie logo" width="140" height="120"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+			  <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="booking.html">Booking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+   </nav>
+</header>	
+
+		
+		<div class="container">
+			<div class="row">
+			  <div class="col-8">
+				<div class="centerform">
+					<form>
+				   <div class=" mb-3">
+					   <label for="fullname" class="form-label">Full Name</label>
+					   <input type="text" class="form-control" id="fullname" placeholder="Full Name" required>
+					 </div>
+					 <div class="mb-3">
+					 <label for="email" class="form-label">Email</label>
+					   <input type="email" class="form-control" id="email" placeholder="Email" required>
+					 </div>
+					 <div class="mb-3">
+					   <label for="reason" class="form-label">Reason</label>
+					   <input type="reason" class="form-control" id="reason" placeholder="Reason" required>
+					   </div>
+					 <div class="mb-3">
+					   <label for="message" class="form-label">Message</label>
+					   <textarea class="form-control" id="message" rows="3" placeholder="Enter your message here...." required></textarea>
+					 </div>
+					 <div class="col-auto">
+					   <button type="submit" class="btn btn-primary mb-3"onclick="contact()">submit</button>
+					 </div>
+				   </form>
+			  </div>
+			  </div>
+			  <div class="col-4">
+
+			<br>
+			<br>
+			<br>
+			<br>
+				<h3>Contact Information</h3>
+		<p>Email: <a href="mailto:info@aggiesbookings.com">info@aggiesbookings.com</a></p>
+		<p>Phone: <a href="tel:+1234567890">+1 234-567-890</a></p>
+		<p>Address: 1601 E Market St, Greensboro, NC 27411</p>
+		<img src="media/images/hoster-hostess-taking-reservation-on-the-phone-while-using-hoster-600px.jpg" alt="Hostess" width="390" height="300">		  
+	
+	</div>
+	</div>
+	<br>
+	</div>
+	</main>
+
+<!--Use the footer area to add webpage footer content-->	
+	<footer>
+	 <div class="footer">
+		<p>© Copyright  2023  - All Rights Reserved</p>
+		<a href="https://www.facebook.com" target="_blank"><img src="media/images/facebook.png" alt="Facebook logo"></a> 
+      	<a href="https://www.twitter.com"  target="_blank"><img src="media/images/twitter.png"  alt="Twitter logo"></a>
+	 </div>
+	</footer>
+	  <script src="javascript/scripts.js"></script>
+
+</body>
+</html>
